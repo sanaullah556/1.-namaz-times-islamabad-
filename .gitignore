@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-cvm/
+app.db
+app.db-shm
+app.db-wal
+.harness/
+audits/
+*.tsbuildinfo

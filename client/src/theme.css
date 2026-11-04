@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "tailwindcss-safe-area";
+
+@theme {
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 28px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 32px;
+  --text-3xl: 30px;
+  --text-3xl--line-height: 36px;
+  --text-4xl: 36px;
+  --text-4xl--line-height: 40px;
+  --text-5xl: 48px;
+  --text-5xl--line-height: 52px;
+}
+
+:root {
+  color-scheme: light dark;
+  --bg: #f5efe3;
+  --surface: #fffdf6;
+  --surface-alt: #ede4d0;
+  --text: #12211b;
+  --dim: #5c6b62;
+  --border: #ddd2ba;
+  --accent: #0b3d2e;
+  --accent-text: #f5efe3;
+  --gold: #a37e22;
+  --gold-soft: #f3e8c8;
+  --hero: #0b3d2e;
+  --hero-text: #f5efe3;
+  --hero-dim: #b9cec2;
+  --radius: 12px;
+  --space-surface: var(--surface);
+  --space-surface-alt: var(--surface-alt);
+  --space-muted: var(--dim);
+  --space-border: var(--border);
+  --space-accent: var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a1f18;
+    --surface: #103026;
+    --surface-alt: #173b2f;
+    --text: #f0ead8;
+    --dim: #9db3a6;
+    --border: #26503f;
+    --accent: #c19a3d;
+    --accent-text: #0a1f18;
+    --gold: #c19a3d;
+    --gold-soft: #2c2a18;
+    --hero: #0e2f24;
+    --hero-text: #f0ead8;
+    --hero-dim: #9db3a6;
+  }
+}
+
+.font-display {
+  font-family: Georgia, "Times New Roman", "Noto Nastaliq Urdu", serif;
+}
